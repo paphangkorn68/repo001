@@ -1,10 +1,16 @@
 #include <stdio.h>
 int main(){
-    int i = 0 ;
-    while ( i < 100 ) 
+   char iga[50] ;
+   int i = 0 ;
+    while (  i < 100 ) 
     {
-            printf( "hosekhps " ) ;
-            i++ ; 
+
+        gets(iga) ;
+        i++ ;
+
+        printf( "hosekhps " ) ;
+        i++ ; 
+
     }
     
     return 0 ;
